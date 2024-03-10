@@ -1,0 +1,429 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  height: 90px;
+  position: fixed;
+  width: 100%;
+}
+
+ul li{
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  align-items: center;
+}
+ul li a{
+  text-decoration: none;
+  padding: 20px;
+  font-size: 18px;
+  color: #333;
+}
+ul li a:hover{
+  color: red;
+}
+.container1{
+  display: flex;
+  flex-direction: column;
+  background-image: url(images/Understanding-Pharmacy-Specializations-in-Nigeria1.jpg);
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+.text{
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text p{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+button{
+  justify-content: center;
+  gap: 10px;
+  margin: 10px;
+  font-size: 25px;
+  text-decoration: none;
+  border: 1px solid  red;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 50px;
+  color: #333;
+
+}
+button:hover{
+  border: 1px solid  red;
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+  margin-top: 50px;
+  background-color: white;
+}
+button a{
+  text-decoration: none;
+  color: #333;
+  font-weight:100;
+}
+
+
+.content{
+
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.container2{
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  
+  border-top: 1px solid red ;
+  border-bottom: 1px solid red ;
+}
+
+.container2 h1{
+  font-size: 50px;
+}
+
+h1{
+  color: rgb(206, 14, 14);
+}
+
+.container2 p{
+  font-size: 20px;
+}
+.container3{
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+}
+.container3 img{
+  width: 60%;
+  margin: 30px;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+.container3 .one{
+  float:left;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.container4{
+  justify-content: center;
+  align-items: center;
+  padding-left: 40%;
+  margin: 40px;
+}
+
+
+
+  .container5{
+  padding: 40px;
+  align-items: center;
+  justify-content:center;
+  display: flex;
+  gap: 100px;
+  height: 70vh;
+  width: 100%;
+}
+
+.container5 h3{
+  color: red;
+  font-size: 30px;
+}
+
+.container5 p:hover{
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.container5 .text2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 45%;
+  background-image: url(images/iStock.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  padding: 20px;
+  border: 1px solid red;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+
+.container5 .text3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 45%;
+  background-image: url(images/ucarecdn.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  padding: 20px;
+  border: 1px solid red;
+  border-radius: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.container6 .text3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 45%;
+  background-image: url(images/secure-delivery.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  padding: 20px;
+  border: 1px solid red;
+  border-radius: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.container6 .text2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 45%;
+  background-image: url(images/compounding-pharmacy-scaled.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+  padding: 20px;
+  border: 1px solid red;
+  border-radius: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+
+
+
+.container6{
+  padding: 40px;
+  align-items: center;
+  justify-content:center;
+  display: flex;
+  gap: 100px;
+  height: 70vh;
+  width: 100%;
+}
+
+.container6 h3{
+  color: red;
+  font-size: 30px;
+}
+
+.container6 p:hover{
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+
+
+.container7{
+  justify-content: center;
+  display: flex;
+  overflow: hidden;
+}
+.nine img{
+  width:100%;
+  height: 60vh;
+  padding-left: 30px;
+  margin-left: 50px;
+  border: 1px solid red;
+  border-radius: 20px 20px 0px 20px;
+  overflow: hidden;
+}
+.ten{
+  width: 50%;
+  margin: 70px;
+  padding: 50px;
+  font-size: 16px;
+}
+.ten h3{
+  color:  rgb(206, 14, 14);
+  font-size: 20px;
+}
+.seven img{
+  width:100%;
+  height: 60vh;
+  margin-right: 70px;
+  border: 1px solid red;
+  border-radius: 0px 20px 20px 0px;
+  overflow: hidden;
+}
+.eight{
+  width: 50%;
+  margin: 50px;
+  padding: 50px;
+  font-size: 16px;
+}
+.eight h3{
+  color:  rgb(206, 14, 14);
+  font-size: 20px;
+}
+.six img{
+  width:100%;
+  height: 60vh;
+  margin-left: 50px;
+  border: 1px solid red;
+  border-radius: 20px 0px 20px 20px;
+  overflow: hidden;
+}
+.five{
+  width: 50%;
+  margin: 70px;
+  padding: 50px;
+  font-size: 16px;
+}
+.five h3{
+  color:  rgb(206, 14, 14);
+  font-size: 20px;
+}
+.container10{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.container11{
+  margin-right: 30px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+.container11 img{
+  display: flex;
+  margin-left: 30%;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.container12{
+  margin-left: 30px;
+  padding: 40px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container12 img{
+  margin-left: 30%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.container13 {
+  width: 100%;
+}
+.container13 img{
+  width: 100%;
+  overflow: hidden;
+}
+.container14{
+  padding: 40px;
+  display: flex;
+ gap: 100px;
+}
+.link{
+  margin-top: 30px;
+  font-size: 16px;
+}
+.link a{
+  text-decoration: none;
+  font-size: 20px;
+}
+.link a:hover{
+  color: #333;
+}
+input{
+  width: 600px;
+  height: 40px;
+  max-width: 500px;
+  padding: 40px;
+  border-radius: 10px;
+  border: 1px solid red;
+
+}
+.input-container {
+  max-width: 500px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+label {
+display: block;
+margin-bottom: 5px;
+}
+.form{
+width: 60%;
+padding:20px ;
+}
+
+.message {
+width: 100%;
+max-width: 500px;
+height: 100px;
+resize: vertical;
+border-radius: 10px;
+border: 1px solid red;
+min-height: 50px;
+padding: 40px;
+}
+.contact{
+width: 35%;
+align-items: center;
+margin-left: 70px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
